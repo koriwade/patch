@@ -1,0 +1,163 @@
+body {
+	background-image:url(img/barbg.png);
+	background-repeat: repeat-x;
+	margin:0;
+	
+}
+
+#container {
+	background-image: url(img/cloudbg.png);
+	background-repeat: no-repeat;
+	width:1151px;
+	margin: 0 auto;
+	padding-top:38px;
+	color:#878A8A;
+	font-family:helvetica;
+}
+
+#leftcontent {
+	width:560px;
+	margin-left:200px;
+	float:left;
+	margin-right:50px;
+}
+
+#leftcontent h1 {
+	font-size:25pt;
+	line-height:70px;
+}
+
+#leftcontent h3 {
+	font-weight:normal;
+}
+
+#search input {
+	width:250px;
+	height:40px;
+	font-size:18pt;
+	font-style:italic;
+	color:#b1b5b3;
+	-webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+#search button {
+	margin-left:10px;
+	width:250px;
+	height:48px;
+	font-size:18pt;
+	font-weight: bold;
+	border:none;
+	background-color:rgb(80, 178, 61);
+	color:white;
+	-webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+#leftcontent p {
+	font-size:14pt;
+	line-height:35px;
+}
+
+#rightcontent {
+	width:180px;
+	float:left;
+	background-color: rgba(255, 255, 255, .4);
+	padding-top:25px;
+	padding-left:25px;
+	padding-right:25px;
+	-webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.clear {
+	clear:both;
+}
+
+#rightcontent ul, #footer ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#rightcontent li {
+	padding-top:3px;
+	padding-bottom:3px;
+	border-bottom:1px dotted #878A8A;
+}
+
+#rightcontent a {
+	color: #878A8A;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#rightcontent a:hover {
+	color:rgb(80, 178, 61);
+}
+
+#rightcontent span {
+	color:rgb(80, 178, 61);
+	font-size:16pt;
+	line-height:30px;
+}
+
+#bottombody {
+	position:relative;
+	width:100%;
+	height:200px;
+	border-top:2px dotted #878A8A;
+	margin-top:200px;
+}
+
+#bottomcontainer, #footer {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#bottomcontainer {
+	background-image: url(img/cloudbg.png);
+	background-repeat: repeat-x;
+	width:100%;
+	height:200px;
+	margin: 0 auto;
+	padding-top:38px;
+}
+
+#footer {
+	margin-left:250px;
+	color:#878a8a
+	font-family:helvetica;
+	padding-top:30px;
+}
+
+.translucent {
+	opacity:0.4;
+	filter:alpha(opacity = 40);
+}
+
+#footer a {
+	text-decoration:none;
+	color:black;
+	font-size:11pt;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}
+
+#footertable th {
+	text-align:left;
+	color:black;
+	font-size:11pt;
+}
+
+#footertable  {
+	width:500px;
+}
+
+#footertable td {
+	width:150px;
+	vertical-align:top;
+}
